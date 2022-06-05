@@ -1,0 +1,131 @@
+/* ----------------NAVEGADOR----------------- */
+body
+{
+    width: 1000px;
+}
+nav
+{
+    background-color:#27AE60;
+    width: 1000px;
+    height: 100px;
+    display:flex;
+    border: 3px solid black;
+}
+.Formas
+{
+    width: 20%;
+    height: 50px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-content:space-around;
+}
+nav div{
+    background-color: white;;
+}
+/* -------------------------BANNER---------------------------- */
+header
+{
+    position: absolute;
+    background-color:#3498DB;
+    width: 1000px;
+    height: 300px;
+    border: 3px solid black;
+}
+#Banner
+{
+    text-align: center;
+    height: 280px;
+    background-color:white;
+    border: 3px solid black;
+    width: 800px;
+    margin: 10px;
+}
+#logo
+{
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 160px;
+    height: 84px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+}
+#login
+{
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 160px;
+    height: 84px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    right: 10px;
+    top: 107px;
+    text-align: center;
+}
+
+#formulario
+{
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 160px;
+    height: 84px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+}
+/* -----------------------------MAIN-------------------------- */
+main
+{
+    background-color: sienna;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 420px;
+    border: 3px solid black;
+}
+#article
+{
+    background-color: white;
+    width: 500px;
+    height: 470px;
+    margin: 12.5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.aside
+{
+    background-color: white;
+    margin: 12.5px;
+    width: 200px;
+    height: 470px;
+    border: 2px solid black;
+    text-align: center;
+}
+/* -----------------------------footer----------------------------- */
+footer
+{
+    position: absolute;
+    background-color: darkgoldenrod;
+    height: 50px;
+    width: 1000px;
+    top: 926px;
+    border: 3px solid black;
+    text-align: center;
+}
+
